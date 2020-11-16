@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2018-2019 The StatixOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,7 +12,7 @@ $(call inherit-product, vendor/oneplus/guacamole/guacamole-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-custom
 
 # Audio
 PRODUCT_COPY_FILES += \
